@@ -25,7 +25,7 @@ O objetivo é aplicar técnicas de **engenharia de prompt** e **visualização d
 ## 🧠 Estrutura Provisória
 ```bash
 spotify-data-storytelling/
-├── spotify_week2.ipynb        # Notebook principal - coleta, limpeza e transformação
+├── spotify.ipynb        # Notebook principal - coleta, limpeza e transformação
 ├── data/                      # Pasta para exportação de datasets tratados
 ├── docs/                      # Relatórios e anotações acadêmicas
 └── README.md                  # Arquivo de descrição inicial
