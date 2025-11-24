@@ -1,3 +1,4 @@
+'''
 ## 📊 Semana 3.3 — Protótipo inicial de dashboard (Streamlit)
 
 Nesta etapa foi desenvolvido o **protótipo inicial do dashboard interativo** do projeto *Spotify Data Storytelling*, 
@@ -26,3 +27,4 @@ Funcionalidades do protótipo:
   - gráfico de barras de lançamentos por ano.
 
 O protótipo será refinado na Semana 4 para se tornar o dashboard final, mantendo esta estrutura como base de storytelling visual.
+'''
