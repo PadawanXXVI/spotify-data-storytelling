@@ -1,0 +1,73 @@
+# ============================================
+# GITIGNORE — Projeto Spotify Data Storytelling
+# ============================================
+
+# -----------------------
+# SISTEMAS OPERACIONAIS
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# AMBIENTE PYTHON/STREAMLIT
+# -----------------------
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.db
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+*.env
+.venv/
+
+# -----------------------
+# JUPYTER / GOOGLE COLAB
+# -----------------------
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# Não ignorar o notebook principal
+# spotify.ipynb deve ir para o GitHub
+
+# -----------------------
+# LOGS E CACHE
+# -----------------------
+*.log
+*.tmp
+.cache/
+pytest_cache/
+pip-log.txt
+
+# -----------------------
+# STREAMLIT / DEPLOY
+# -----------------------
+.streamlit/secrets.toml
+.streamlit/.credentials/
+.streamlit/cache/
+
+# -----------------------
+# VISUALS / IMAGENS GERADAS
+# (SE quiser ignorar imagens grandes)
+# Remova o comentário se NÃO quiser versionar prints/figuras
+# visuals/*.png
+
+# -----------------------
+# ARQUIVOS CSV
+# -----------------------
+# ⚠ IMPORTANTE:
+# NÃO ignore os CSVs principais:
+# spotify_semana2_tratado.csv
+# spotify_raw.csv
+#
+# Eles precisam estar versionados para o dashboard funcionar.
+
+# -----------------------
+# ARQUIVOS TEMPORÁRIOS DE COLAB
+# -----------------------
+sample_data/
