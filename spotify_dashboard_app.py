@@ -601,8 +601,8 @@ with tab_insights:
     st.markdown("---")
     st.markdown("### Interpretação IA-driven sugerida")
     st.markdown(
-        "O conjunto filtrado indica uma dinâmica específica entre *consistência, **volatilidade* e "
-        "*relevância histórica*. A combinação de gêneros selecionados, período de lançamento e "
+        "O conjunto filtrado indica uma dinâmica específica entre **consistência, volatilidade e "
+        "relevância histórica**. A combinação de gêneros selecionados, período de lançamento e "
         "distribuição de popularidade sugere padrões que podem orientar estratégias de curadoria, "
         "construção de playlists, promoção de catálogo e entendimento das tendências de consumo na plataforma."
     )
