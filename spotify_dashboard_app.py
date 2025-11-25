@@ -102,8 +102,8 @@ def load_data(path):
 
 def get_default_csv_path():
     candidates = [
-        Path("data/spotify_semana2_tratado.csv"),
-        Path("spotify_semana2_tratado.csv"),
+        Path("data/spotify_semana3_final.csv"),
+        Path("spotify_semana3_final.csv"),
     ]
     for c in candidates:
         if c.exists():
